@@ -277,7 +277,7 @@ void printBoard(const char *arr[], int SIZE)
         }
         else if (strcmp(arr[i], "BK") == 0 || strcmp(arr[i], "BN") == 0 || strcmp(arr[i], "BR") == 0)
         {
-            printf("%s%s%s ", BHBLK, arr[i], CRESET);
+            printf("%s%s%s ", BHBLU, arr[i], CRESET);
         }
         else
         printf("%s ", arr[i]);
